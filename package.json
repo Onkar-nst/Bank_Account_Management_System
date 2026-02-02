@@ -1,0 +1,37 @@
+{
+    "name": "bank-account-management-system",
+    "version": "1.0.0",
+    "description": "A full-fledged CRUD backend for Bank Account Management System using OOP principles with TypeScript",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "nodemon --exec ts-node src/server.ts",
+        "watch": "tsc --watch",
+        "clean": "rm -rf dist"
+    },
+    "keywords": [
+        "bank",
+        "account",
+        "management",
+        "crud",
+        "oop",
+        "express",
+        "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "uuid": "^9.0.0",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.5.0",
+        "@types/uuid": "^9.0.2",
+        "nodemon": "^3.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    }
+}
